@@ -95,13 +95,15 @@ Some useful resources:
 
   1. All members of the group must commit, i.e. I want to see all the members making meaningful changes
 
-  - what is git? what does it do?
-  	Git is a distributed version control system. It is used as a server and adds 		access control, displays the contents of a git repository and helps to manage 		multiple repositories.
+  2. Answer the following questions:
 
-  - why is user information important?
-	User information assigns changes made to a repository to a specific user so that 	changes to a repository can be tracked back to an individual. If the user 		information isn’t given in the commit then the user responsible for the changes 	cannot be identified.
+  - What is git? what does it do?
+  	-Git is a distributed version control system. It is used as a server and adds 		access control, displays the contents of a git repository and helps to manage 		multiple repositories.
 
-  - what is the difference between https and git url?
+  - Why is user information important?
+	-User information assigns changes made to a repository to a specific user so that 	changes to a repository can be tracked back to an individual. If the user 		information isn’t given in the commit then the user responsible for the changes 	cannot be identified.
+
+  - What is the difference between https and git url?
   	git:
 	- no user authentication or security
 	- very fast and can handle large amounts of traffic
@@ -113,8 +115,8 @@ Some useful resources:
 	- fast and efficient
 
   - After you made a change to a file, in order to push that change to the remote repository what the steps you must perform? (List all the steps in order)
-	git add <file_name>
-	git commit <file_name>
-	git push
+	- git add <file_name>
+	- git commit <file_name>
+	- git push
   - After you are informed that there are some changes have been made, what are the steps you must follow in order get those changes? (List all the steps in order)
-	git pull
+	- git pull
